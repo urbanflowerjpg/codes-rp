@@ -1,0 +1,13 @@
+.fond-rp {text-align: justify; margin-top: -50px;}
+.zonerp {margin: 0 auto;width: 100%;max-width: 480px;border-radius: 15px;overflow: hidden;position: relative;background: var(--basetrio); border: 1px solid (--basetrio);}
+.zonerp .waves {position: absolute;z-index: 1;top: 0;left: 0;width: 100%;height: 700px;background: linear-gradient(var(--terre),var(--air));
+-webkit-mask: url("data:image/svg+xml,<svg width='100%' height='100%' id='svg' viewBox='0 0 1440 100%' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'><path d='M 0,600 C 0,600 0,200 0,200 C 125.35714285714286,219.17857142857142 250.71428571428572,238.35714285714283 368,256 C 485.2857142857143,273.64285714285717 594.5,289.75 729,265 C 863.5,240.25 1023.2857142857142,174.64285714285714 1146,157 C 1268.7142857142858,139.35714285714286 1354.357142857143,169.67857142857144 1440,200 C 1440,200 1440,600 1440,600 Z'
+class='transition-all duration-300 ease-in-out delay-150 path-0' transform='rotate(-180 720 300)'></path></svg>");-webkit-mask-repeat: no-repeat;} 
+.zonerp .waves2 {position: absolute;z-index: 1;top: 0;left: 0;width: 100%;height: 650px;background: linear-gradient(var(--terre) -7.56%,var(--air) 209.1%);
+-webkit-mask: url("data:image/svg+xml,<svg width='100%' height='100%' id='svg' viewBox='0 0 1440 100%' xmlns='http://www.w3.org/2000/svg' class='transition duration-300 ease-in-out delay-150'><path d='M 0,600 C 0,600 0,400 0,400 C 103,380.67857142857144 206,361.35714285714283 339,383 C 472,404.64285714285717 634.9999999999999,467.25 751,460 C 867.0000000000001,452.75 936,375.6428571428571 1043,354 C 1150,332.3571428571429 1295,366.17857142857144 1440,400 C 1440,400 1440,600 1440,600 Z' class='transition-all duration-300 ease-in-out delay-150 path-1' transform='rotate(-180 720 300)'></path></svg>");-webkit-mask-repeat: no-repeat;} 
+.zonerp .mainzone {position: relative;z-index: 2;margin: 25px;padding: 40px 50px;background: var(--base);border-radius: 15px;}
+.zonerpbas {display: flex;align-items: center;justify-content: center;height: 40px;margin: 25px;border-radius: 10px; font: 500 10px work sans; text-transform: uppercase; letter-spacing: 1px; background: var(--basetrio);} 
+.zonerp i {color: var(--terre);} 
+terre {color: var(--terre); font-weight: 900;} 
+air {color: var(--air); font-weight: 900;} 
+title6 {font-family: 'Bebas Neue';font-weight: 400;font-size: 20px;line-height: 24px;border-radius: 15px;padding: 5px 15px;margin: 0px 10px;background-color: var(--terre);color: var(--base);}
